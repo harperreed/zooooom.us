@@ -10,6 +10,7 @@ header h1.title{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: rainbow 8s ease infinite;
+
 }
 
 .rainbow-text {
@@ -27,4 +28,17 @@ header h1.title{
     0%{background-position:0% 50%}
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
+}
+
+header{
+
+
+}
+
+.logo{
+width: 120px;
+max-width: 100%;
+height: auto;
+margin: 20px;
+display:inline;
 }
