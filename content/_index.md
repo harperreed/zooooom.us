@@ -1,5 +1,5 @@
 ---
-title: "zooooom.us - A screen for our anxious times"
+title: "zooooom.us - A screensaver for our anxious times"
 date: 202-04-05T21:48:09Z
 draft: false
 
