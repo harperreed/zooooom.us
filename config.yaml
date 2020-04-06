@@ -2,7 +2,7 @@ baseURL: /
 
 publishDir: "public"
 languageCode: en-us
-title: "A screen saver for these anxious times - zooooom.us"
+title: "ZOOOOOM.US"
 
 canonifyURLs: true
 enableRobotsTXT: true

@@ -1,5 +1,5 @@
 ---
-title: "zooooom.us - A screensaver for our anxious times"
+title: "A screensaver for our anxious times"
 date: 202-04-05T21:48:09Z
 draft: false
 
@@ -7,10 +7,9 @@ draft: false
 
 ![](/images/screenshot.jpg)
 
-### This is a real parody 
+### This is a real parody and a real screesaver
 
 It is a real screen saver. It is obviously a parody of our lives right now
-
 
 ### Download screensaver [here](builds/zooooom.0.002.zip) 
 
@@ -27,3 +26,4 @@ Today, that world is dead. We now live in a video conference sort of world. To m
 
 A lot of people submitted videos. Thank you so much for that. It really makes this all the more funny. 
 
+### Made with love by [@harper](http://twitter.com/harper) and [@tolar](http://twitter.com/tolar)
