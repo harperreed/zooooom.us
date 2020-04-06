@@ -1,0 +1,29 @@
+baseURL: /
+
+publishDir: "docs"
+languageCode: en-us
+title: "A screen saver for these anxious times - zooooom.us"
+
+canonifyURLs: true
+enableRobotsTXT: true
+sectionPagesMenu: main
+
+params:
+  ga_id: "UA-xxxxx-xx"
+  description: "A screen saver for these anxious times"
+  keywords: ""
+  cachebuster: ""
+  name: "Tolar and Harper"
+  email: me@vaughntan.org
+  icon: fa-utensils
+
+
+disableKinds:
+  - section
+  - section
+  - taxonomy
+  - taxonomyTerm
+  - rss
+  - section
+  - page
+

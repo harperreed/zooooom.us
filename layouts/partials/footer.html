@@ -1,0 +1,15 @@
+<footer class="footer">
+    <br />
+    <hr>
+
+    <p class="text-muted small">
+        <b><i class="fa {{.Site.Params.Icon}}" aria-hidden="true"></i> {{ .Site.Title }}</b>
+    </p>
+    <p class="text-muted small">This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You’re allowed to copy and redistribute the material in any medium or format, and to remix, transform, and build upon the material. When you do so, you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. You may not use the material for commercial purposes. You may not apply legal terms or technological measures that
+        legally restrict others from doing anything the license permits. <a href="http://creativecommons.org/licenses/by-nc/4.0/">Click here to view a copy of this license</a></p></p>
+    
+    <hr>
+    <p class="text-muted small">Copyright &copy; {{ now.Format "2006" }} {{ .Site.Params.Name }} &middot; Contact <a
+        href="mailto:{{.Site.Params.email}}" rel="me">{{ .Site.Params.name }}</a></p>    
+        <!--  &middot; Generated @ {{ now.Format "Jan 2, 2006" }} -->
+</footer>

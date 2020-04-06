@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+  {{ range (where .Site.Pages "Type" "posts") }}
+    <div class="post" style="padding-bottom: 50px;">
+      <div >
+        <h1 ><a title="Permanent Link to {{ .Title }}." href="{{.RelPermalink}}" rel="bookmark">{{ .Title }}</a> <br /><small>Posted on {{.Date.Format "Jan 2, 2006" }}</small></h1>
+      </div>
+      <div class="postcontent">
+        {{ .Content }}
+      </div>
+    </div>
+  {{ end }}
+
+{{ end }}

@@ -1,0 +1,25 @@
+  {{ block "head" . }}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <title>{{ .Site.Title}}</title>
+  
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="keywords" content="{{ .Site.Params.keywords }}" />
+    <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}">
+    <meta name="author" content="Harper Reed <{{ .Site.Params.email }}>">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    {{- partial "head/opengraph.html" . -}}
+
+    {{- partial "head/javascript.html" . -}}
+
+    {{- partial "head/css.html" . -}}
+
+    <link rel="stylesheet" href="/css/main.css?cache={{ now }}">
+
+  {{ end }}
