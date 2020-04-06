@@ -1,12 +1,23 @@
 ---
-title: "A screen for our anxious times"
+title: "zooooom.us - A screen for our anxious times"
 date: 202-04-05T21:48:09Z
 draft: false
 
 ---
 
-# WARNING! THIS SCREEN SAVER IS HILARIOUS
+### This is a real parody 
 
-## HI! 
+It is a real screen saver. It is obviously a parody of our lives right now
 
-### Tolar and I love you
+
+### Download [here](builds/zooooom.0.001.zip) 
+
+-----
+
+Long ago in a land far far away the people of earth were able to leave their houses. They had meetings that were in person and did not have to do every social interaction over a video conference. 
+
+Today, that world is dead. We now live in a video conference sort of world. To make sure that we fully engage our new world, we made this screensaver. It will make sure that even when you are not using your computer, it will be participating in our new world with full compliance. 
+
+
+
+
