@@ -33,4 +33,13 @@ You can also take a gander at the project and help us make it better on [github]
 
 A lot of people submitted videos. Thank you so much for that. It really makes this all the more funny. 
 
+
+### Video Contributors
+
+Alaistar Croll, Aziz Gilani, Brad Barrish, Brad Greenlee, Brian Holcomb, Chris Dibona, Chris Sacca, Dan Sinker, Janie Grenier, John Borthwick, Kenyatta Cheese, Marc Hedlund, Miss Eaves, Nikki Sylianteng, Tricia Wang, Vaughn Tan
+
+### Design / Screensaver development / Etc
+
+Jeffrey Kalmikoff, Tolar, Harper
+
 ### Made with love by [@harper](http://twitter.com/harper) and [@tolar](http://twitter.com/tolar)
