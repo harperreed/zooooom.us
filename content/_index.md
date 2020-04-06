@@ -12,7 +12,7 @@ draft: false
 It is a real screen saver. It is obviously a parody of our lives right now
 
 
-### Download screensaver [here](builds/zooooom.0.001.zip) 
+### Download screensaver [here](builds/zooooom.0.002.zip) 
 
 -----
 
