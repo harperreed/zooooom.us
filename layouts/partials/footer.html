@@ -3,14 +3,8 @@
     <hr>
 
     <p class="text-muted small">
-        <b><i class="fa {{.Site.Params.Icon}}" aria-hidden="true"></i> {{ .Site.Title }}</b>
-    </p>
-    <p class="text-muted small">
-    This is clearly a parody. It is clearly for fun. If you do not have a sense of humor, please email us. 
-    </p>
-    
-    <hr>
-    <p class="text-muted small">Copyright &copy; {{ now.Format "2006" }} {{ .Site.Params.Name }} &middot; Contact <a
+        <b><i class="fa {{.Site.Params.Icon}}" aria-hidden="true"></i> {{ .Site.Title }}</b>. 
+    This is clearly a parody. It is clearly for fun. If you do not have a sense of humor, please email us. Copyright &copy; {{ now.Format "2006" }} {{ .Site.Params.Name }} &middot; Contact <a
         href="mailto:{{.Site.Params.email}}" rel="me">{{ .Site.Params.name }}</a></p>    
         <!--  &middot; Generated @ {{ now.Format "Jan 2, 2006" }} -->
 </footer>
