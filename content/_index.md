@@ -5,6 +5,8 @@ draft: false
 
 ---
 
+![](/images/screenshot.jpg)
+
 ### This is a real parody 
 
 It is a real screen saver. It is obviously a parody of our lives right now
