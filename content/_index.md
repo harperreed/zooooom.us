@@ -37,7 +37,7 @@ A lot of people submitted videos. Thank you so much for that. It really makes th
 
 ### Video Contributors
 
-Alaistar Croll, Aziz Gilani, Brad Barrish, Brad Greenlee, Brian Holcomb, Chris Dibona, Chris Sacca, Dan Sinker, Janie Grenier, John Borthwick, Kenyatta Cheese, Marc Hedlund, Miss Eaves, Nikki Sylianteng, Tricia Wang, Vaughn Tan
+Alaistar Croll, Aziz Gilani, Brad Barrish, Brad Greenlee, Brian Holcomb, Chris Dibona, Chris Sacca, Dan Sinker, Janie Grenier, Jesse Boyes, John Borthwick, Kenyatta Cheese, Marc Hedlund, Miss Eaves, Nikki Sylianteng, Tricia Wang, Vaughn Tan
 
 ### Design / Screensaver development / Etc
 
