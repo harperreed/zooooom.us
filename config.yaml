@@ -16,6 +16,7 @@ params:
   name: "Tolar and Harper"
   email: happiness@zooooom.us
   icon: fa-webcam
+  download_link: https://github.com/harperreed/zooooom.us/archive/screensaver-build-3.zip
 
 
 disableKinds:
