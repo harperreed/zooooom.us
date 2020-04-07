@@ -14,7 +14,7 @@ draft: false
 
 It is a real screen saver. It is obviously a parody of our lives right now
 
-### Download screensaver [here](https://github.com/harperreed/zooooom.us/archive/screensaver-build-3.zip) 
+### Download screensaver [here](https://github.com/harperreed/zooooom.us/releases/download/Build-3/Zooooom-3.zip) 
 
 -----
 
