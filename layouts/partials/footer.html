@@ -8,3 +8,12 @@
         href="mailto:{{.Site.Params.email}}" rel="me">{{ .Site.Params.name }}</a></p>    
         <!--  &middot; Generated @ {{ now.Format "Jan 2, 2006" }} -->
 </footer>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-70650-50"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{.Site.Params.ga_id}}');
+</script>

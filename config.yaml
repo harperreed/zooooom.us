@@ -9,9 +9,9 @@ enableRobotsTXT: true
 sectionPagesMenu: main
 
 params:
-  ga_id: "UA-xxxxx-xx"
+  ga_id: "UA-70650-50"
   description: "A screen saver for these anxious times"
-  keywords: ""
+  keywords: "screensaver, video conferencing, humor, harper reed, tolar, george bush"
   cachebuster: ""
   name: "Tolar and Harper"
   email: happiness@zooooom.us
