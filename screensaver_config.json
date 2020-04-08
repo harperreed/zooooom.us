@@ -1,5 +1,11 @@
 {
   "videos": [],
   "max_videos":12,
-  "min_videos":2
+  "min_videos":2,
+  "connection_error_messages": [
+    "Low bandwidth detected.",
+    "Connection issue."
+  ],
+  "version": "1.0",
+  "upgrade_message": "Version 1.0 is out. Get the latest at https://zooooom.us/"
 }
