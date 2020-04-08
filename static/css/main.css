@@ -5,6 +5,7 @@ img{
 
 
 header h1.title{
+  
   font-size: 8vw;
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
@@ -36,9 +37,13 @@ header{
 }
 
 .logo{
-width: 120px;
+width: 90px;
 max-width: 100%;
 height: auto;
 margin: 20px;
-display:inline;
+display:inline-block;
+}
+
+.person + .person:before {
+  content: ", "
 }
