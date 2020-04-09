@@ -22,3 +22,5 @@ The easiest thing you can do is submit yourself acting like you are on the world
 
 You can also take a gander at the project and help us make it better on [github](https://github.com/harperreed/zooooom.us).
 
+You can also help make the screensaver better over [here](https://github.com/rhaining/zooooom-screensaver).
+
