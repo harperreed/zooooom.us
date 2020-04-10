@@ -1,31 +1,51 @@
 {{ define "main" }}
     <main aria-role="main">
       <header class="homepage-header">
-        <h1>{{.Title}}</h1>
+        <h2>{{.Title}}</h2>
         {{ with .Params.subtitle }}
         <span class="subtitle">{{.}}</span>
         {{ end }}
       </header>
+      <div class="clear">&nbsp;</div>
       <div class="homepage-content">
-        <p><img src="/images/screenshot.jpg" alt=""></p>
-        <h3 id="this-is-a-real-parody-and-a-real-screensaver">This is a real parody and a real screensaver</h3>
-        <p>It is a real screen saver. It is obviously a parody of our lives right now</p>
-        <h3 id="download-screensaver">Download screensaver <a href="{{ .Site.Params.download_link}}">here</a></h3>
-        <hr>
-        
+        <div id="download-promo">
+
+          <video id="screenshot" autoplay loop controls>
+            <source src="/video/promo.mov" type="video/mp4">
+            <img src="/images/screenshot.jpg" alt="" id="screenshot"/>
+          </video>
+
+          <h3 id="this-is-a-real-parody-and-a-real-screensaver">
+            This is a real parody and a real screensaver.
+          </h3>
+
+          <p id="this-is-a-real-sub">
+            It is a real screen saver. It is obviously a parody of our lives right now.
+          </p>
+
+          <div class="clear">&nbsp;</div>
+
+          <div id="download-screensaver">
+            <a class="button" href="{{ .Site.Params.download_link}}"><img src="/images/download-icon.png"/> Download screensaver now</a>
+          </div>
+        </div>
+
+
+        <div id="the-actual-content">
         {{.Content}}
-        
-        <h2 id="thanks">Thanks</h2>
-        <p>A lot of people submitted videos. Thank you so much for that. It really makes this all the more funny.</p>
-        <h3 id="video-contributors">Video Contributors</h3>
-        <p>
-          {{ range sort $.Site.Data.contributors "name" }}{{ partial "person.html" . }}{{ end }}
-        </p>
-        <h3 id="design--screensaver-development--etc">Design / Screensaver development / Etc</h3>
-        <p>
-          {{ range sort $.Site.Data.helpers "name" }}{{ partial "person.html" . }}{{ end }}
-        </p>
-        <h3 id="made-with-love-by-harperhttptwittercomharper-and-tolarhttptwittercomtolar">Made with love by <a href="http://twitter.com/harper">@harper</a> and <a href="http://twitter.com/tolar">@tolar</a></h3>
+
+          <h2 id="thanks">Thanks</h2>
+          <p>A lot of people submitted videos. Thank you so much for that. It really makes this all the more funny.</p>
+          <p>
+            {{ range sort $.Site.Data.contributors "name" }}{{ partial "person.html" . }}{{ end }}
+          </p>
+          <h3 id="design--screensaver-development--etc">Design / Screensaver development / Etc</h3>
+          <p>
+            {{ range sort $.Site.Data.helpers "name" }}{{ partial "person.html" . }}{{ end }}
+          </p>
+          <h3 id="made-with-love-by-harperhttptwittercomharper-and-tolarhttptwittercomtolar">Made with love in Chicago & NYC by <a href="http://twitter.com/harper">@harper</a> and <a href="http://twitter.com/tolar">@tolar</a></h3>
+        </div>
+
       </div>
     </main>
 {{ end }}
