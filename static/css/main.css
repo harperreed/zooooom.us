@@ -1,17 +1,24 @@
-img{
-  width: 80%;
 
+header.page-content {
+  margin-top: 20px;
 }
 
-
 header h1.title{
-  
+
   font-size: 8vw;
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: rainbow 8s ease infinite;
 
+  line-height: 0.8em;
+}
+
+/* subheader title */
+main header.homepage-header h2 {
+  font-size: 2.5vw;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: rgb(150,150,150);
 }
 
 .rainbow-text {
@@ -25,25 +32,90 @@ header h1.title{
   -webkit-text-stroke-color: black;
 }
 
-@keyframes rainbow { 
+@keyframes rainbow {
     0%{background-position:0% 50%}
     50%{background-position:100% 25%}
     100%{background-position:0% 50%}
 }
 
+.clear {
+  clear: both;
+}
+
 header{
-
-
 }
 
 .logo{
-width: 90px;
-max-width: 100%;
-height: auto;
-margin: 20px;
-display:inline-block;
+  width: 10vw;
+  max-width: 100%;
+  height: auto;
+  display:inline-block;
+  margin: 0px 20px 0px 0px !important;
+}
+
+#download-promo {
+  margin-bottom: 20px;
+}
+h3#this-is-a-real-parody-and-a-real-screensaver {
+  font-size: 4vw;
+}
+#this-is-a-real-sub {
+  font-size: 2vw;
+}
+
+.homepage-content #screenshot{
+  width: 50%;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#download-screensaver {
+  text-align: center;
+}
+
+#the-actual-content {
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.homepage-content h2 {
+  margin-top: 1em;
 }
 
 .person + .person:before {
   content: ", "
+}
+
+/* BUTTONS */
+.button {
+  background-color: #64A3EC; /* blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vw;
+  border-radius: 8px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  letter-spacing: 0.5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover {
+  background-color: #6196C8; /* slightly darker blue */
+  text-decoration: none;
+  color: white;
+}
+.button:active {
+  background-color: #5482AD; /* even darker blue */
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .homepage-content #screenshot{
+    float: none;
+    margin-left: 0px;
+    width: 100%;
+  }
 }
