@@ -14,6 +14,7 @@ base_config_file = 'screensaver_config.json'
 config_file = 'static/config.json'
 media_folder = 'static/media/'
 domain = "zooooom.us"
+domain = "d2brqd0zfu9kp3.cloudfront.net"
 
 
 logger.debug("Generating config.json")
