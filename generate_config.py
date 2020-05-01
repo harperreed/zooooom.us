@@ -2,6 +2,8 @@ import os
 import json
 import logging
 
+# Logging
+
 logger = logging.getLogger()
 handler = logging.StreamHandler()
 formatter = logging.Formatter(
@@ -10,29 +12,46 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 logger.setLevel(logging.DEBUG)
 
+# Config
+
 base_config_file = 'screensaver_config.json'
 config_file = 'static/config.json'
-media_folder_url = "/media/hearing/"
 
-media_folder = 'static' + media_folder_url
+hearing_media_folder_url = "/media/hearing/"
+deaf_media_folder_url = "/media/deaf/"
 
-domain = "zooooom.us"
+deaf_media_files_folder = 'static' + deaf_media_folder_url
+hearing_media_files_folder = 'static' + hearing_media_folder_url
+
+
+#domain = "zooooom.us"
 domain = "d2brqd0zfu9kp3.cloudfront.net"
 
+# Let's get functions
+
+def get_videos(media_folder, folder_url):
+    subfolders = [ f.path for f in os.scandir(media_folder) if f.is_dir() ]
+    videos = []
+    for i in subfolders:
+        dirhash = i.replace(media_folder,"")
+        url = "https://" + domain + folder_url + dirhash + "/prog_index.m3u8"
+        videos.append(url)
+    return videos
+
+
+# Let's do it
 
 logger.debug("Generating config.json")
-subfolders = [ f.path for f in os.scandir(media_folder) if f.is_dir() ]
+
+deaf_videos = get_videos(deaf_media_files_folder, deaf_media_folder_url)
+hearing_videos = get_videos(deaf_media_files_folder, deaf_media_folder_url)
 
 with open(base_config_file) as json_file:
     config = json.load(json_file)
 
-videos = []
-for i in subfolders:
-    dirhash = i.replace(media_folder,"")
-    url = "https://" + domain + media_folder_url + dirhash + "/prog_index.m3u8"
-    videos.append(url)
-
-config['videos'] = videos
+config['videos'] = deaf_videos + hearing_videos
+config['hearing_videos'] = hearing_videos
+config['deaf_videos'] = deaf_videos
 
 with open(config_file, 'w') as outfile:
     json.dump(config, outfile)
