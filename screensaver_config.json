@@ -1,5 +1,7 @@
 {
   "videos": [],
+  "deaf_videos": [],
+  "hearing_videos": [],
   "max_videos":12,
   "min_videos":2,
   "connection_error_messages": [
