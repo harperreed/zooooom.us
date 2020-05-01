@@ -42,14 +42,14 @@ def get_videos(media_folder, folder_url):
         url = "https://" + domain + folder_url + dirhash + "/prog_index.m3u8"
         videos.append(url)
     return videos
-
+    
 # Let's do it
 
 logger.debug("Generating config.json")
 
 deaf_videos = get_videos(deaf_media_files_folder, deaf_media_folder_url)
 hearing_videos = get_videos(hearing_media_files_folder, hearing_media_folder_url)
-videos = hearing_videos
+videos = deaf_videos + hearing_videos
 random.shuffle(videos)
 
 with open(base_config_file) as json_file:
