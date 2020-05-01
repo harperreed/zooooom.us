@@ -12,7 +12,7 @@ logger.setLevel(logging.DEBUG)
 
 base_config_file = 'screensaver_config.json'
 config_file = 'static/config.json'
-media_folder_url = "/media/hearing/"
+media_folder_url = "/media/deaf/"
 
 media_folder = 'static' + media_folder_url
 
