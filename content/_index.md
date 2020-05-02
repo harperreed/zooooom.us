@@ -9,7 +9,7 @@ draft: false
 
 ### We launched V.1.1 `Tru Biz` 
 
-In collaboration with [Christine Sun Kim](http://asl.wtf) we launched the newest version of the zooooom.us screensaver. This time with some new features, a bunch of participants and a new audience. 
+In collaboration with [Christine Sun Kim](http://christine.lol) we launched the newest version of the zooooom.us screensaver. This time with some new features, a bunch of participants and a new audience. 
 
 From Christine: 
 
@@ -21,7 +21,7 @@ From Christine:
 
 As always, you can download the newest version [here](/download)
 
-Learn more about Christine Sun Kim and her art [here](https://en.wikipedia.org/wiki/Christine_Sun_Kim)
+Learn more about Christine Sun Kim and her work [here](https://en.wikipedia.org/wiki/Christine_Sun_Kim), [here](https://www.artforum.com/print/202002/project-christine-sun-kim-81914), and [here](https://www.nytimes.com/2019/05/21/t-magazine/christine-sun-kim-artist.html)
 
 ## What people are saying
 - "This screen saver is like a beautiful Black Mirror episode."
