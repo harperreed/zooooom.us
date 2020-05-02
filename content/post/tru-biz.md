@@ -1,12 +1,10 @@
 ---
-title: "Tru Biz"
+title: "We launched V.1.1 Tru Biz"
 date: 2020-05-02T16:35:23-05:00
-draft: False
+draft: false
 ---
 
-### 5/2/2020: We launched V.1.1 `Tru Biz` 
-
-In collaboration with [Christine Sun Kim](http://christine.lol) we launched the newest version of the zooooom.us screensaver. This time with some new features, a bunch of participants and a new audience. 
+In collaboration with our friend [Christine Sun Kim](http://christine.lol) we launched the newest version of the zooooom.us screensaver. This time with some new features, a bunch of participants and a new audience. 
 
 From Christine: 
 
