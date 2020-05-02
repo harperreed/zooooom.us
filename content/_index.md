@@ -5,9 +5,9 @@ draft: false
 
 ---
 
-## Update 
+## Updates
 
-### We launched V.1.1 `Tru Biz` 
+### 5/2/2020: We launched V.1.1 `Tru Biz` 
 
 In collaboration with [Christine Sun Kim](http://christine.lol) we launched the newest version of the zooooom.us screensaver. This time with some new features, a bunch of participants and a new audience. 
 
@@ -18,6 +18,8 @@ From Christine:
 As always, you can download the newest version [here](/download)
 
 Learn more about Christine Sun Kim and her work [here](https://en.wikipedia.org/wiki/Christine_Sun_Kim), [here](https://www.artforum.com/print/202002/project-christine-sun-kim-81914), and [here](https://www.nytimes.com/2019/05/21/t-magazine/christine-sun-kim-artist.html)
+
+
 
 ### New features!!
 
