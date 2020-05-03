@@ -10,12 +10,11 @@ HUGO_ENABLEGITINFO = "true"
 [[headers]]
   for = "/*"
   [headers.values]
-	cache-control = "max-age=43200"
-
-[[headers]]
-  for = "/config.json"
-  [headers.values]
-	cache-control = "max-age=43200"
+	cache-control = '''
+	max-age=0,
+	no-cache,
+	no-store,
+	must-revalidate'''
 
 [[headers]]
   for = "/media/*"
