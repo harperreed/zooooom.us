@@ -11,3 +11,17 @@ HUGO_ENABLEGITINFO = "true"
   from = "/download"
   to = "https://github.com/rhaining/zooooom-screensaver/releases/download/v1.1-2/Zooooom-1.1-2.zip"
   status = 302
+  
+[[headers]]
+  for = "/*"
+  [headers.values]
+	cache-control = '''
+	max-age=0,
+	no-cache,
+	no-store,
+	must-revalidate'''
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+	cache-control = "max-age=604800"
