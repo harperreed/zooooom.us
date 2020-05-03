@@ -7,3 +7,16 @@ HUGO_VERSION = "0.68.3"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+	cache-control = '''
+	max-age=0,
+	no-cache,
+	no-store,
+	must-revalidate'''
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+	cache-control = "max-age=604800"
