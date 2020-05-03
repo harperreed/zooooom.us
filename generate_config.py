@@ -2,7 +2,7 @@ import os
 import json
 import logging
 import random
-
+import yaml
 
 # Logging
 
@@ -18,6 +18,8 @@ logger.setLevel(logging.DEBUG)
 
 base_config_file = 'screensaver_config.json'
 config_file = 'static/config.json'
+
+video_yaml_file = 'data/videos.yaml'
 
 hearing_media_folder_url = "/media/hearing/"
 deaf_media_folder_url = "/media/deaf/"
@@ -62,3 +64,6 @@ config['deaf_videos'] = deaf_videos
 with open(config_file, 'w') as outfile:
     json.dump(config, outfile, indent=2)
 
+
+with open(video_yaml_file, 'w') as outfile:
+    yaml.dump(videos, outfile)
