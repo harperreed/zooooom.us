@@ -18,7 +18,6 @@ params:
   icon: fa-webcam
   download_link: /download
 
-
 disableKinds:
   - taxonomy
   - taxonomyTerm
