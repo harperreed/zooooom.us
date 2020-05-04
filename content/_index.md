@@ -5,6 +5,8 @@ draft: false
 
 ---
 
+{{< updates >}}
+
 ## What people are saying
 - "This screen saver is like a beautiful Black Mirror episode."
 - "OMG this is so good"
@@ -13,7 +15,6 @@ draft: false
 - "I can testify that it feels uncomfortably real, and I’ve caught myself wondering if I forgot a meeting several times."
 - "Omg this is amazing – I mean I hate that I have to be on zoom all day but this just truly leans into the absurdity of our remote work life"
 - "My kids see me every once in a while on it and are so confused."
-
 
 ## Backstory
 

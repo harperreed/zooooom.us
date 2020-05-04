@@ -16,12 +16,9 @@ params:
   name: "Tolar and Harper"
   email: happiness@zooooom.us
   icon: fa-webcam
-  download_link: https://github.com/rhaining/zooooom-screensaver/releases/download/v1.1-2/Zooooom-1.1-2.zip
-
+  download_link: /download
 
 disableKinds:
-  - section
-  - section
   - taxonomy
   - taxonomyTerm
   - rss
