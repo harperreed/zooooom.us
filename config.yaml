@@ -20,10 +20,9 @@ params:
 
 
 disableKinds:
-  - section
-  - section
   - taxonomy
   - taxonomyTerm
   - rss
   - section
+
 
