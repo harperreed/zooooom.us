@@ -9,7 +9,7 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
   from = "/download"
-  to = "https://github.com/rhaining/zooooom-screensaver/releases/download/v1.1-2/Zooooom-1.1-2.zip"
+  to = "https://github.com/rhaining/zooooom-screensaver/releases/download/v1.2/Zooooom-1.2-1.zip"
   status = 302
   
 [[headers]]
