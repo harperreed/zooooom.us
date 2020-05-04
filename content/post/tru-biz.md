@@ -1,6 +1,6 @@
 ---
 title: "We launched V.1.1 Tru Biz"
-date: 2020-05-02T16:35:23-05:00
+date: 2020-05-03T16:35:23-05:00
 draft: false
 ---
 
