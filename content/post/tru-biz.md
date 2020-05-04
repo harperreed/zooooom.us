@@ -18,7 +18,7 @@ Learn more about Christine Sun Kim and her work [here](https://en.wikipedia.org/
 
 ### New features!!
 
-* Ability to choose which group is doing the chatting: `Everyone` or `Deaf people`
+* Ability to choose which group is doing the chatting in screen saver options: `Everyone` or `Deaf people`. 
 * We set it up so it won't use so much bandwidth! Videos! Who knew! 
 * Less or more connection problems?????
 * Almost 100% more movie stars
