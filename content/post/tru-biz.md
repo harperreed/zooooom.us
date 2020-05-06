@@ -8,7 +8,7 @@ In collaboration with our friend [Christine Sun Kim](http://christine.lol) we la
 
 From Christine: 
 
-> Video chat has always been part of Deaf people's lives, way before covid started, and as you can imagine, “zoom fatigue” doesn’t exist for us. After seeing Harper and Toler’s black mirror-ish zoom, I immediately asked them about doing a Deaf version. Basically, we have our own listening faces with no earpods or headphones, and sometimes we slightly mimic the speaker’s moving face to show that we’re listening. So I asked 20 of my Deaf friends to participate and now other Deaf people can download the project and have Deaf faces stare back at them. After you’ve downloaded the screensaver, you can either select “everyone” or “Deaf only”.
+> Video chat has always been part of Deaf people's lives, way before covid started, and as you can imagine, “zoom fatigue” doesn’t exist for us. After seeing Harper and Tolar’s black mirror-ish zoom, I immediately asked them about doing a Deaf version. Basically, we have our own listening faces with no earpods or headphones, and sometimes we slightly mimic the speaker’s moving face to show that we’re listening. So I asked 20 of my Deaf friends to participate and now other Deaf people can download the project and have Deaf faces stare back at them. After you’ve downloaded the screensaver, you can either select “everyone” or “Deaf only”.
 
 As always, you can download the newest version [here](/download)
 
